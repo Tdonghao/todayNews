@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/textWhite"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/tag_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:paddingTop="10dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/tag_text_color"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tag_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/title_text_bg"
+        android:textColor="@color/title_text_color"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:paddingBottom="15dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tag_url"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:background="@drawable/layout_bg"
+            android:textColor="@color/tag_text_color"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/tag_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tag_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text=""
+            android:textColor="@color/content_text_color"
+            android:lineSpacingExtra="5dp"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">每日爆笑</string>
+    <string name="action_settings">引导页</string>
+    <string name="news_name">爆笑列表</string>
+    <string name="view_name">详情</string>
+    <string name="ys_name">影视搜索</string>
+    <string name="ys_play">影视播放</string>
+
+    <string-array name="array_names">
+        <item>"热点"</item>
+        <item>"视频"</item>
+        <item>"段子"</item>
+        <item>"社会"</item>
+        <item>"娱乐"</item>
+        <item>"科技"</item>
+        <item>"体育"</item>
+        <item>"汽车"</item>
+        <item>"财经"</item>
+        <item>"搞笑"</item>
+        <item>"美文"</item>
+        <item>"育儿"</item>
+        <item>"故事"</item>
+        <item>"美食"</item>
+        <item>"探索"</item>
+        <item>"影视"</item>
+    </string-array>
+
+</resources>
